@@ -1,1 +1,19 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9457655&assignment_repo_type=AssignmentRepo)
+# assignment_3
+## introduction
+將棋對奕程式
+
+
+## Requirement
+os: Linux
+
+## compile
+cc -o main main.c player.c stack.c -lev -lpthread -I ./inc
+
+## run
+
+newgame: ./main -n -s new_game_file_name
+
+oldgame: ./main -l old_game_file
+
+
+
