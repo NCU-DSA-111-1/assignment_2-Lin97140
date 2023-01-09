@@ -7,7 +7,7 @@
 os: Linux
 
 ## compile
-cc -o main main.c player.c stack.c -lev -lpthread -I ./inc
+cc -o main src/main.c src/player.c src/stack.c -lev -lpthread -I ./inc
 
 ## run
 
